@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2024-01-01T00:00:00Z",
+  "packages": [
+    {
+      "id": "windows/sample-package",
+      "name": "Sample Windows Maintenance",
+      "platform": "windows",
+      "version": "1.0.0",
+      "description": "Example package demonstrating repository layout for Windows scripts.",
+      "tags": ["example", "maintenance"],
+      "requiresBackup": false,
+      "customFields": [
+        {
+          "type": "device",
+          "path": "packages/windows/sample-package/custom-fields/device_status.json",
+          "checksum": "8dc1772a5010e7241c847a68a785e18cf9c9a70b1e9dac03357b4bc27d0f2a3f"
+        }
+      ],
+      "assets": [
+        {
+          "path": "packages/windows/sample-package/script.json",
+          "checksum": "981d6c4786baed2e54a22f1cf7080704b87c080451835db0f0a3380107176991"
+        }
+      ]
+    },
+    {
+      "id": "linux/sample-package",
+      "name": "Sample Linux Maintenance",
+      "platform": "linux",
+      "version": "1.0.0",
+      "description": "Example package for Linux scripts.",
+      "tags": ["example", "maintenance"],
+      "requiresBackup": false,
+      "customFields": [],
+      "assets": [
+        {
+          "path": "packages/linux/sample-package/script.json",
+          "checksum": "0a37531633ae5507606659e839595b9b66e59e56b42c066eef93cb1ad790e8de"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Sample Windows Maintenance",
+  "description": "Placeholder script exported from NinjaOne.",
+  "scriptType": "powershell",
+  "code": "Write-Host 'Sample maintenance task'"
+}
