@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-import { readFile, writeFile } from 'node:fs/promises';
-import { resolve } from 'node:path';
+import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { dirname, resolve } from 'node:path';
 
 const HELP_MESSAGE = `
 Usage: node scripts/apply-package.mjs <package-id> [options]
@@ -33,6 +33,7 @@ async function main() {
   }
 
   const outputPath = resolve('dist', `${packageId.replace(/\//g, '_')}.json`);
+  await mkdir(dirname(outputPath), { recursive: true });
   await writeFile(outputPath, JSON.stringify(entry, null, 2));
   console.log(`Wrote package metadata to ${outputPath}`);
 }
