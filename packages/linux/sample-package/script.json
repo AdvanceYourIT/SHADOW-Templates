@@ -1,0 +1,6 @@
+{
+  "name": "Sample Linux Maintenance",
+  "description": "Placeholder bash script exported from NinjaOne.",
+  "scriptType": "bash",
+  "code": "echo 'Sample maintenance task'"
+}
