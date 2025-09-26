@@ -1,0 +1,20 @@
+{
+  "id": "windows/deploy-check-browser-extension",
+  "name": "Deploy Check Browser Extension",
+  "version": "1.0.0",
+  "description": "Deploys and configures the Check phishing protection browser extension for Chrome and Edge via registry policies.",
+  "platform": "windows",
+  "tags": [
+    "powershell",
+    "browser",
+    "security"
+  ],
+  "requiresBackup": false,
+  "customFields": [],
+  "assets": {
+    "script": {
+      "path": "script.json",
+      "checksum": "f177036f5ab7bf7421d1028f3bc0350b1315db07e998ae03853e3e0f1f926795"
+    }
+  }
+}
