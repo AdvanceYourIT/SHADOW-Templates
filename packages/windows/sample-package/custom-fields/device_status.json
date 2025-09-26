@@ -1,0 +1,5 @@
+{
+  "name": "Device Status",
+  "type": "device",
+  "description": "Tracks the status reported by the sample maintenance script."
+}

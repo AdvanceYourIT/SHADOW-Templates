@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Template package metadata",
+  "type": "object",
+  "required": ["id", "name", "version", "description", "platform", "tags", "requiresBackup", "assets"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(windows|linux)/[a-z0-9-]+$"
+    },
+    "name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string",
+      "enum": ["windows", "linux"]
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "requiresBackup": {
+      "type": "boolean"
+    },
+    "customFields": {
+      "type": "array",
+      "items": {
+        "$ref": "custom-field.schema.json"
+      }
+    },
+    "assets": {
+      "type": "object",
+      "required": ["script", "customFields"],
+      "properties": {
+        "script": {
+          "$ref": "#/definitions/checksummedAsset"
+        },
+        "customFields": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/checksummedAsset"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "checksummedAsset": {
+      "type": "object",
+      "required": ["path", "checksum"],
+      "properties": {
+        "path": { "type": "string" },
+        "checksum": { "type": "string" }
+      }
+    }
+  }
+}

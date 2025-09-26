@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Custom field reference",
+  "type": "object",
+  "required": ["type", "path"],
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": ["device", "organization", "location"]
+    },
+    "path": {
+      "type": "string"
+    }
+  }
+}
