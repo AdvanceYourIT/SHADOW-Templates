@@ -1,14 +1,56 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2024-01-01T00:00:00Z",
+  "generatedAt": "2025-09-26T09:53:46Z",
   "packages": [
+    {
+      "id": "linux/sample-package",
+      "name": "Sample Linux Maintenance",
+      "platform": "linux",
+      "version": "1.0.0",
+      "description": "Example package for Linux scripts.",
+      "tags": [
+        "example",
+        "maintenance"
+      ],
+      "requiresBackup": false,
+      "customFields": [],
+      "assets": [
+        {
+          "path": "packages/linux/sample-package/script.json",
+          "checksum": "0a37531633ae5507606659e839595b9b66e59e56b42c066eef93cb1ad790e8de"
+        }
+      ]
+    },
+    {
+      "id": "windows/deploy-check-browser-extension",
+      "name": "Deploy Check Browser Extension",
+      "platform": "windows",
+      "version": "1.0.0",
+      "description": "Deploys and configures the Check phishing protection browser extension for Chrome and Edge via registry policies.",
+      "tags": [
+        "powershell",
+        "browser",
+        "security"
+      ],
+      "requiresBackup": false,
+      "customFields": [],
+      "assets": [
+        {
+          "path": "packages/windows/deploy-check-browser-extension/script.json",
+          "checksum": "f177036f5ab7bf7421d1028f3bc0350b1315db07e998ae03853e3e0f1f926795"
+        }
+      ]
+    },
     {
       "id": "windows/sample-package",
       "name": "Sample Windows Maintenance",
       "platform": "windows",
       "version": "1.0.0",
       "description": "Example package demonstrating repository layout for Windows scripts.",
-      "tags": ["example", "maintenance"],
+      "tags": [
+        "example",
+        "maintenance"
+      ],
       "requiresBackup": false,
       "customFields": [
         {
@@ -21,22 +63,6 @@
         {
           "path": "packages/windows/sample-package/script.json",
           "checksum": "981d6c4786baed2e54a22f1cf7080704b87c080451835db0f0a3380107176991"
-        }
-      ]
-    },
-    {
-      "id": "linux/sample-package",
-      "name": "Sample Linux Maintenance",
-      "platform": "linux",
-      "version": "1.0.0",
-      "description": "Example package for Linux scripts.",
-      "tags": ["example", "maintenance"],
-      "requiresBackup": false,
-      "customFields": [],
-      "assets": [
-        {
-          "path": "packages/linux/sample-package/script.json",
-          "checksum": "0a37531633ae5507606659e839595b9b66e59e56b42c066eef93cb1ad790e8de"
         }
       ]
     }
