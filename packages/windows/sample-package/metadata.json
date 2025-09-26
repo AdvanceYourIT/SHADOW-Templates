@@ -1,0 +1,27 @@
+{
+  "id": "windows/sample-package",
+  "name": "Sample Windows Maintenance",
+  "version": "1.0.0",
+  "description": "Example package demonstrating repository layout for Windows scripts.",
+  "platform": "windows",
+  "tags": ["example", "maintenance"],
+  "requiresBackup": false,
+  "customFields": [
+    {
+      "type": "device",
+      "path": "custom-fields/device_status.json"
+    }
+  ],
+  "assets": {
+    "script": {
+      "path": "script.json",
+      "checksum": "981d6c4786baed2e54a22f1cf7080704b87c080451835db0f0a3380107176991"
+    },
+    "customFields": [
+      {
+        "path": "custom-fields/device_status.json",
+        "checksum": "8dc1772a5010e7241c847a68a785e18cf9c9a70b1e9dac03357b4bc27d0f2a3f"
+      }
+    ]
+  }
+}

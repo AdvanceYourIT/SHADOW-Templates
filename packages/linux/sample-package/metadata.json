@@ -1,0 +1,17 @@
+{
+  "id": "linux/sample-package",
+  "name": "Sample Linux Maintenance",
+  "version": "1.0.0",
+  "description": "Example package for Linux scripts.",
+  "platform": "linux",
+  "tags": ["example", "maintenance"],
+  "requiresBackup": false,
+  "customFields": [],
+  "assets": {
+    "script": {
+      "path": "script.json",
+      "checksum": "0a37531633ae5507606659e839595b9b66e59e56b42c066eef93cb1ad790e8de"
+    },
+    "customFields": []
+  }
+}
