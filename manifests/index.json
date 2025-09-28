@@ -37,7 +37,7 @@
       "assets": [
         {
           "path": "packages/windows/deploy-check-browser-extension/script.json",
-          "checksum": "f177036f5ab7bf7421d1028f3bc0350b1315db07e998ae03853e3e0f1f926795"
+          "checksum": "0703a73d886ed70c1420a19da2680cbcdc691766486c9051fd645b02c14e3e97"
         }
       ]
     },
