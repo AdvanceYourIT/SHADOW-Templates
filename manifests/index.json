@@ -82,6 +82,7 @@
           "type": "device",
           "path": "packages/windows/ultra-treesize-ninja/custom-fields/treesize.json",
           "checksum": "9e722a0b480476be8ce20b368d7a7d7871bc1a9f8d0bdd0327c57a3c75c3c121"
+
         }
       ],
       "assets": [
