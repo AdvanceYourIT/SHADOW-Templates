@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generatedAt": "2025-09-26T09:53:46Z",
+  "generatedAt": "2025-09-29T14:06:49Z",
   "packages": [
     {
       "id": "linux/sample-package",
@@ -63,6 +63,31 @@
         {
           "path": "packages/windows/sample-package/script.json",
           "checksum": "981d6c4786baed2e54a22f1cf7080704b87c080451835db0f0a3380107176991"
+        }
+      ]
+    },
+    {
+      "id": "windows/ultra-treesize-ninja",
+      "name": "Ultra TreeSize Ninja",
+      "platform": "windows",
+      "version": "1.0.0",
+      "description": "PowerShell automation that deploys the Ultra TreeSize Ninja script for storage usage auditing.",
+      "tags": [
+        "powershell",
+        "storage"
+      ],
+      "requiresBackup": false,
+      "customFields": [
+        {
+          "type": "device",
+          "path": "packages/windows/ultra-treesize-ninja/custom-fields/treesize.json",
+          "checksum": "9e722a0b480476be8ce20b368d7a7d7871bc1a9f8d0bdd0327c57a3c75c3c121"
+        }
+      ],
+      "assets": [
+        {
+          "path": "packages/windows/ultra-treesize-ninja/script.json",
+          "checksum": "c52a657710d24ba42653ce8e72760dde672a1d6f41d5291c9ab4c598028defd8"
         }
       ]
     }
