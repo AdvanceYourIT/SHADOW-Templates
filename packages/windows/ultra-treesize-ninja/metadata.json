@@ -1,7 +1,7 @@
 {
   "id": "windows/ultra-treesize-ninja",
   "name": "Ultra TreeSize Ninja",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PowerShell automation that deploys the Ultra TreeSize Ninja script for storage usage auditing.",
   "platform": "windows",
   "tags": [
@@ -18,7 +18,7 @@
   "assets": {
     "script": {
       "path": "script.json",
-      "checksum": "c52a657710d24ba42653ce8e72760dde672a1d6f41d5291c9ab4c598028defd8"
+      "checksum": "4f65ee6b8cc94287aff190d2892b1dc5eb279faea17495b66699359b9a0d4577"
     },
     "customFields": [
       {
