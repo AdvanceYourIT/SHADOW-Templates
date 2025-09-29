@@ -1,8 +1,6 @@
 # OBVIOUS Template Library
 
 This repository hosts the OBVIOUS Template Library—a curated collection of NinjaOne automation templates that can be consumed by the SHADOW browser extension.
-It follows the structure defined in `template-library-blueprint.md` so that packages, manifests, and supporting documentation are
-all available from a single public source.
 
 ## Repository layout
 
